@@ -13,6 +13,9 @@ const config = {
     "@storybook/addon-docs",
     "@storybook/addon-mcp"
   ],
-  "framework": "@storybook/react-vite"
+  "framework": "@storybook/react-vite",
+  "docs": {
+    "defaultName": "Documentation"
+  },
 };
 export default config;
