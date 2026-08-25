@@ -75,7 +75,7 @@ Users should be able to:
 
 ### 🔗Links
 
-- Solution URL: [Add your Frontend Mentor solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/results-summary-component---react-tailwind-css-v4-and-storybook-OsWeTkwHNE](https://www.frontendmentor.io/solutions/results-summary-component---react-tailwind-css-v4-and-storybook-OsWeTkwHNE)
 - Live Site URL: [https://berefire.github.io/results-summary-component/](https://berefire.github.io/results-summary-component/)
 
 ---
