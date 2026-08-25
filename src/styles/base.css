@@ -1,0 +1,32 @@
+/* base.css */
+/* Hanken Grotesk, self-hosted from /public/assets/fonts.
+   Only the three weights actually used in the design are loaded
+   (500/700/800) — add more @font-face blocks here if a new weight
+   is introduced. */
+
+@layer base {
+  @font-face {
+    font-display: swap;
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 500;
+    src: url("/assets/fonts/static/HankenGrotesk-Medium.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/assets/fonts/static/HankenGrotesk-Bold.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-display: swap;
+    font-family: "Hanken Grotesk";
+    font-style: normal;
+    font-weight: 800;
+    src: url("/assets/fonts/static/HankenGrotesk-ExtraBold.ttf")
+      format("truetype");
+  }
+}
