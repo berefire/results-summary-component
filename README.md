@@ -53,7 +53,25 @@ Users should be able to:
 
 ### 📸Screenshot
 
-![Results summary component screenshot](./screenshot.jpg)
+#### Mobile (375x914)
+
+| _Main_ | _Active_ |
+| ------ | ------ |
+| ![Mobile ](./docs/screenshots/mobile.png) | ![Mobile Active](./docs/screenshots/mobile-active.png) |
+
+#### Tablet (768x914)
+
+| _Main_ | _Active_ |
+| ------ | ------ |
+| ![Tablet ](./docs/screenshots/tablet.png) | ![Tablet Active](./docs/screenshots/tablet-active.png) |
+
+#### Desktop (1440x914)
+
+| _Main_ | _Active_ |
+| ------ | ------ |
+| ![Desktop ](./docs/screenshots/desktop.png) | ![Desktop Active](./docs/screenshots/desktop-active.png) |
+
+---
 
 ### 🔗Links
 
