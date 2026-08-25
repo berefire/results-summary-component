@@ -10,7 +10,7 @@ import data from '@/data/data.json';
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-navy-50">
+    <div className="flex flex-col min-h-dvh bg-navy-50">
       <main className="flex-1 flex items-center justify-center">
         <ResultsSummary categories={data} />
       </main>
