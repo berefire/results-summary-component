@@ -11,7 +11,7 @@ import data from '@/data/data.json';
 function App() {
   return (
     <div className="flex flex-col md:min-h-dvh bg-navy-50">
-      <main className="md:flex-1 flex md:items-center">
+      <main className="flex-1 flex md:items-center">
         <ResultsSummary categories={data} />
       </main>
       <Attribution />
