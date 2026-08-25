@@ -26,7 +26,8 @@ const DEFAULT_CATEGORIES = [
  */
 
 function ResultsSummary({ categories }) {
-    const data = categories.length ? categories : DEFAULT_CATEGORIES;
+    const safeCategories = Array.isArray(categories) ? categories : [];
+    const data = safeCategories.length ? safeCategories : DEFAULT_CATEGORIES;
     const score = Math.round(data.reduce((total, item) => total + item.score, 0) / data.length);
 
     return (
