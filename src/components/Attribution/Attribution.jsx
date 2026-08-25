@@ -1,7 +1,15 @@
-// src/components/Attribution/Attribution.jsx
+/**
+ * Displays the challenge attribution footer, crediting Frontend Mentor
+ * and linking to the developer's GitHub profile.
+ *
+ * This component takes no props — it renders fixed, static content and
+ * is not meant to be reused with different data (see the architecture
+ * discussion on when a component needs props vs. when it doesn't).
+ */
+
 function Attribution() {
   return (
-    <footer className="text-center text-xs text-slate-500 mt-4">
+    <footer className="text-center text-xs text-slate-500">
       Challenge by{' '}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
