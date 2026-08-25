@@ -9,7 +9,7 @@
 
 function Attribution() {
   return (
-    <footer className="text-center text-xs text-slate-500">
+    <footer className="font-body text-center text-xs text-slate-500">
       Challenge by{' '}
       <a
         href="https://www.frontendmentor.io?ref=challenge"
