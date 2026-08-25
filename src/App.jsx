@@ -1,11 +1,19 @@
-//import ResultsSummary from './components/ResultsSummary/ResultsSummary';
+// App.jsx
+
+import ResultsSummary from '@/components/ResultsSummary/ResultsSummary';
 import Attribution from '@/components/Attribution/Attribution';
-//import sampleResults from './data/sampleResults';
+import data from '@/data/data.json';
+
+// Wraps the page in a sticky-footer layout: min-h-screen + flex-col here,
+// flex-1 on <main>, so Attribution stays pinned to the bottom of the
+// viewport even when the content above it is short.
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-100">
-      {/*<ResultsSummary categories={sampleResults} />*/}
+    <div className="flex flex-col min-h-screen bg-navy-50">
+      <main className="flex-1 flex items-center justify-center">
+        <ResultsSummary categories={data} />
+      </main>
       <Attribution />
     </div>
   );
